@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Monitor</title>
+  </head>
+  <body>
+    <!--SideBar-->
+    <section id="sidebar">
+      <a href="#" class="brand"><i class="bx bxs-smile icon"> IdWall</i></a>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="active">Dashoard</a>
+        </li>
+        <li class="divider">Principal</li>
+        <li>
+            <a href="#">
+                <i class="icon"></i>Tabela 1<i class="bx bx-chevron-right icon-right"></i>
+            </a>
+            <ul class="side-dropdown">
+                <li><a href="#">Campo 1</a></li>
+                <li><a href="#">Campo 2</a></li>
+                <li><a href="#">Campo 3</a></li>
+                <li><a href="#">Campo 4</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#"><i class="icon"> Label 1 </i></a>
+        </li>
+        <li>
+            <a href="#"><i class="icon"> Label 2 </i></a>
+        </li>
+        <!-- TABLE AND FORMS -->
+        <li class="divider">Secundário</li>
+        <li>
+            <a href="#"><i class="icon"> Label 3</i></a>
+        </li>
+        <li>
+            <a href="#">
+                <i class=" icon"></i>Tabela 2<i class="bx bx-chevron-right icon-right"></i>
+            </a>
+            <ul class="side-dropdown">
+                <li><a href="#">Campo 1</a></li>
+                <li><a href="#">Campo 2</a></li>
+                <li><a href="#">Campo 3</a></li>
+                <li><a href="#">Campo 4</a></li>
+            </ul>
+        </li>
+        <li>
+      </ul>
+      <div class="ads">
+          <div class="wrapper">
+              <a href="#" class="btn-update">Logout</a>
+              <p>Não é <span>você</span>?</p>
+          </div>
+      </div>
+    </section>
+
+    <section id="content">
+      <nav>
+        <i class="bx bx-menu toggle-sidebar icon"></i>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Procurar...">
+            <i class="bx br-search icon"></i>
+          </div>
+        </form>
+        <a href="#" class="nav-link">
+          <i class="bx bxs-bell icon"></i>
+          <span class="badge">5</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="bx bxs-message-swaure-dotsp icon"></i>
+          <span class="badge">8</span>
+        </a>
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="https://avatars.githubusercontent.com/u/81242635?v=4" >
+          <ul class="profile-link">
+            <li><a href="#"><i class="bx bxs-user-circle icon"></i> Perfil</a></li>
+            <li><a href="#"><i class="bx bxs-cog icon"></i> Configurações</a></li>
+            <li><a href="#"><i class="bx bxs-log-out-circle icon"></i> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
